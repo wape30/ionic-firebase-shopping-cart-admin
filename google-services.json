@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "121824680284",
+    "firebase_url": "https://mojitos-shop.firebaseio.com",
+    "project_id": "mojitos-shop",
+    "storage_bucket": "mojitos-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121824680284:android:6f7bcb397db1226f",
+        "android_client_info": {
+          "package_name": "com.ionicframework.labarrappadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121824680284-q19q3q2uhbsmum7ucp3d8qsl3d0nk525.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnK0Q_q1EkXFOUMMk5UK73ET9JUmf7Nag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

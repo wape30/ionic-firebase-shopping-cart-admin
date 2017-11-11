@@ -1,0 +1,28 @@
+<ion-view style="" class=" " id="page10" title="Ordenes">
+    <ion-content class="has-header" padding="true">
+
+      <!-- <button ion-button style="position: absolute;left:0;" ng-click="reinicia()">Revisar</button>
+      <br> -->
+      <ion-list ng-repeat="item in orders">
+
+        <ion-item class="item-thumbnail-left" >
+
+          <img  ng-src="{{item.product_image}}" >
+
+          <a class="badge badge-balanced" style="position: absolute;right:0;" >{{item.status}}</a>
+
+          <button ion-button style="position: absolute;left:0;" ng-click="borralo(item.orderId)">Cobrado</button>
+
+
+          <h4> {{item.product_name}} </h4>
+          <p>Cant: {{item.item_qty}}  Cobrar: &#x24; {{item.product_price}}.000 </p>
+          <p>Direccion: {{item.originAdress}} - Piso/Apto: {{item.originPin}} </p>
+          <p>Telefono: {{item.originPhone}} </p>
+
+
+        </ion-item>
+
+      </ion-list>
+
+    </ion-content>
+</ion-view>
